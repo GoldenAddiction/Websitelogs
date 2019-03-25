@@ -2,3 +2,39 @@
 body{
     font-family:  'Amaranth', sans-serif;
 }
+header{
+    height:300px;
+    background-image: url("../media/banner.jpg");
+}
+nav{
+    margin-top:0px;
+    background-color:dodgerblue;
+}
+nav ul li{
+    padding:10px;
+    display:inline-block;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+nav ul {
+    width:100px;
+    margin:auto;
+}
+main{
+    margin-top:10px;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+main section h1{
+    text-align:center;
+}
+form{
+    margin-top:150px;
+
+}
+ input{
+display:inline-block;
+}
