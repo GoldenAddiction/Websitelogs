@@ -33,12 +33,16 @@ nav ul {
     margin:auto;
 }
 main{
-    width:600px;
+    width:650px;
     margin: 25px auto;
     flex: 1 0 auto;
 }
 main section h1{
     text-align:center;
+    font-size: 2rem;
+}
+main section p{
+    padding-top: 20px;
 }
 form{
     margin-top:4%;
