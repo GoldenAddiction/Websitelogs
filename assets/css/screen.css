@@ -3,8 +3,9 @@ body{
     font-family:  'Amaranth', sans-serif;
 }
 header{
-    height:300px;
-    background-image: url("../media/banner.jpg");
+    height:400px;
+    background: url("../media/banner.jpg") no-repeat fixed;
+
 }
 nav{
     margin-top:0px;
@@ -38,7 +39,7 @@ form{
     justify-content: center;
 }
 input {
-        width:40%;
+        width:20%;
         margin-left:auto;
         margin-right:auto;
         margin-top:10px;
@@ -57,4 +58,10 @@ input[type=submit]{
     color:white;
     font-weight:bold;
     /**/
+}
+label{
+    position:center;
+    text-align: center;
+    font-size:2rem;
+    color: #909090;
 }
