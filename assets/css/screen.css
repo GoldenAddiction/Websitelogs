@@ -43,12 +43,17 @@ input {
         margin-right:auto;
         margin-top:10px;
         border:none;
-        border-radius:5px;
+        border-radius:10px;
         height:30px;
 
 }
 input::placeholder{
     padding-left:10px;
     color:grey;
+    font-weight:bold;
+}
+input[type=submit]{
+    background-color: dodgerblue;
+    color:white;
     font-weight:bold;
 }
