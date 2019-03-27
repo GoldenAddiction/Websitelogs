@@ -4,7 +4,9 @@ body{
 }
 header{
     height:400px;
-    background: url("../media/banner.jpg") no-repeat fixed;
+    background: url("../media/banner.jpg") no-repeat fixed center;
+    width:100%;
+    background-size:cover;
 
 }
 nav{
