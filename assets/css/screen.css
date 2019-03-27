@@ -25,10 +25,8 @@ nav ul {
     margin:auto;
 }
 main{
-    margin-top:10px;
-    width:300px;
-    margin-left:auto;
-    margin-right:auto;
+    width:600px;
+    margin: 25px auto;
 }
 main section h1{
     text-align:center;
@@ -58,4 +56,13 @@ input[type=submit]{
     color:white;
     font-weight:bold;
     /**/
+}
+footer{
+    background-color: dodgerblue;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 15px;
 }
