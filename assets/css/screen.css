@@ -8,26 +8,26 @@ header{
 
 }
 nav{
-    margin-top:0px;
+    height: 50px;
     background-color:dodgerblue;
 }
 nav ul li{
-    padding:10px;
+    text-align: center;
+    padding-top: 15px;
     display:inline-block;
 }
 nav ul li a {
     color:white;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 nav ul {
     width:100px;
     margin:auto;
 }
 main{
-    margin-top:10px;
-    width:300px;
-    margin-left:auto;
-    margin-right:auto;
+    width:600px;
+    margin: 25px auto;
 }
 main section h1{
     text-align:center;
@@ -39,17 +39,16 @@ form{
     justify-content: center;
 }
 input {
-        width:20%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:10px;
-        border:none;
-        border-radius:10px;
-        height:30px;
-
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    height:30px;
+    padding-left:10px;
 }
 input::placeholder{
-    padding-left:10px;
     color:grey;
     font-weight:bold;
 }
@@ -64,4 +63,13 @@ label{
     text-align: center;
     font-size:2rem;
     color: #909090;
+}
+footer{
+    background-color: dodgerblue;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 15px;
 }
